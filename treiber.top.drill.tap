@@ -1,0 +1,39 @@
+(.../.eagle/pcb-gcode/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../Lasercutter/Treiber/treiber.brd)
+(Current profile is .../pcb-gcode/profiles/imodela.pp  )
+(This file generated 25.05.13 16:33)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(0.20 )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(10.00 	2.00 	-0.19 	-2.10 )
+(spindle on time = 6.0000)
+(milling depth = -0.2540)
+(text depth = -0.1270)
+(tool change at 0.00 0.00 10.00 )
+(feed rate xy = F140.00 )
+(feed rate z  = F35.00 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0020)
+(isolate max = 0.2000)
+(isolate step = 0.2000)
+(Generated top outlines, top drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01  0.000mm 0.0000in 0.0000in 0.0000in )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+(G00 Z2.000000)
+G00 X0.00 Y0.00 
+G01 Z-2.100000
+G01 Z2.000000
+T01 
+G00 Z10.00 
+M05
+M02

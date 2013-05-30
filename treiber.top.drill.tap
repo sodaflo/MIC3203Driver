@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../Lasercutter/Treiber/treiber.brd)
 (Current profile is .../pcb-gcode/profiles/imodela.pp  )
-(This file generated 25.05.13 16:33)
+(This file generated 30.05.13 19:19)
 (Settings from pcb-machine.h)
 (  Tool Size)
 (0.20 )
@@ -24,15 +24,25 @@
 (Generated top outlines, top drill, )
 (Unit of measure: mm)
 ( Tool|       Size       |  Min Sub |  Max Sub |   Count )
-( T01  0.000mm 0.0000in 0.0000in 0.0000in )
+( T01  0.600mm 0.0236in 0.0000in 0.0000in )
 (Metric Mode)
 G21
 (Absolute Coordinates)
 G90
-(G00 Z2.000000)
+M05
+G00 Z10.00 
 G00 X0.00 Y0.00 
-G01 Z-2.100000
+(M06 T01  ; 0.60 )
+G01 Z0.00 F35.00 
+(M06 T01  ; 0.60 )
+G00 Z2.00 
+M03
+G04 P 6
+G00 Z2.000000
+G00 X11.43 Y10.16 
+G01 Z-2.10 F35.00 
 G01 Z2.000000
+(R2.00  P1.000000)
 T01 
 G00 Z10.00 
 M05
